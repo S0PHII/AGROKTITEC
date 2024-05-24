@@ -35,12 +35,12 @@ header {
     display: flex;
     justify-content: space-around;
     color: var(--cor-cabeçalho);
-    align-items: flex-end; 
+    align-items: center; 
     padding: 10; 
 }
 
 .noticia{
-    background-color: gray;
+    background-color: var(--cor-de-SUB);
     padding: 10px;
     margin: 10px;
     display: flex;
