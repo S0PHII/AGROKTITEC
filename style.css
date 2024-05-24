@@ -38,3 +38,10 @@ header {
     align-items: flex-end; 
     padding: 10; 
 }
+
+.noticia{
+    background-color: gray;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+}
