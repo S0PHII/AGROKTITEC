@@ -11,7 +11,7 @@
     --cor-de-SUB: rgb(155, 155, 155);
     --cor-de-bloco: rgb(209, 208, 208);
     --cor-destaques: rgb(46, 58, 82);
-
+    --cor-cabeçalho: rgb(77, 131, 68);
 
 
 
@@ -34,7 +34,7 @@ body {
 header {
     display: flex;
     justify-content: space-around;
-    color: var(--cor-de-texto);
+    color: var(--cor-cabeçalho);
     align-items: flex-end; 
     padding: 10; 
 }
