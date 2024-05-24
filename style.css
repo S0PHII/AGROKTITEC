@@ -36,7 +36,7 @@ header {
     justify-content: space-around;
     color: var(--cor-cabeçalho);
     align-items: center; 
-    padding: 10; 
+    padding: 10px 0; 
 }
 
 .noticia{
