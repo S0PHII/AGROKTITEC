@@ -34,9 +34,10 @@ body {
 header {
     display: flex;
     justify-content: space-around;
-    color: var(--cor-cabeçalho);
+    color: var(--cor-de-texto);
     align-items: center; 
-    padding: 10px 0; 
+    padding: 10px 0;
+    background-color: var(--cor-cabeçalho);
 }
 
 .noticia{
