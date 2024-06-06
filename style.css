@@ -46,3 +46,11 @@ header {
     margin: 10px;
     display: flex;
 }
+
+.titulinho{
+    color: var(--cor-de-texto-2);
+}
+
+.paragrafo{
+    color: rgb(180, 180, 180);
+}
