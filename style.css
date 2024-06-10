@@ -81,7 +81,7 @@ header {
 
     .linha{
         display: block;
-        border: 8px solid var(--cor-linha);
+        border: 6px solid var(--cor-linha);
     }
 
     .arrumar{
