@@ -62,10 +62,17 @@ header {
     left: 50%;
 }
 
-
+.linha{
+    display: none;
+}
 
 @media screen and (min-width: 1024px)  { 
     .noticia{
         display: flex;
+    }
+
+    .linha{
+        display: block;
+        border: 3px solid var(--cor-cabeçalho);
     }
 }
