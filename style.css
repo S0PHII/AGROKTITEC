@@ -12,6 +12,7 @@
     --cor-de-bloco: rgb(209, 208, 208);
     --cor-destaques: rgb(46, 58, 82);
     --cor-cabeçalho: rgb(77, 131, 68);
+    --cor-linha: rgba(77, 131, 68, 0.5);
 
 
 
@@ -73,6 +74,6 @@ header {
 
     .linha{
         display: block;
-        border: 3px solid var(--cor-cabeçalho);
+        border: 3px solid var(--cor-linha);
     }
 }
