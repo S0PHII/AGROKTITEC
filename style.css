@@ -44,7 +44,7 @@ header {
     background-color: var(--cor-de-SUB);
     padding: 10px;
     margin: 10px;
-    display: flex;
+    
 }
 
 .titulinho{
@@ -60,4 +60,12 @@ header {
     border-left: 10px solid;
     position: absolute;
     left: 50%;
+}
+
+
+
+@media screen and (min-width: 1024px)  { 
+    .noticia{
+        display: flex;
+    }
 }
