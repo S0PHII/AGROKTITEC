@@ -61,6 +61,19 @@ header {
     display: none;
 }
 
+
+.ima-1{
+    width: 20%;
+}
+
+.ima-2{
+    width: 25%;
+}
+
+.ima-3{
+    width: 25%;
+}
+
 @media screen and (min-width: 1024px)  { 
     .noticia{
         display: flex;
