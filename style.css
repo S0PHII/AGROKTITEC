@@ -3,6 +3,8 @@
     margin: 0;
 }
 
+
+
 /*borda do campo numero 1*/
 :root {
     --cor-de-fundo: rgb(255, 255, 255);
@@ -39,7 +41,44 @@ header {
     align-items: center; 
     padding: 10px 0;
     background-color: var(--cor-cabeçalho);
+    padding: 12px;
+    position: relative;
 }
+
+ul li{
+    list-style: none;
+}
+
+a{
+    color: var(--cor-de-texto);
+    text-decoration: none;
+}
+
+.texto{
+    color: var(--cor-de-texto);
+}
+
+.lista{
+    display: none;
+    position: absolute;
+    top: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.caixa:checked ~ .lista{
+    display: block;
+}
+
+#menu{
+    display: none;
+}
+
+.item{
+    padding: 12px 0;
+}
+
 
 .noticia{
     background-color: var(--cor-de-SUB);
