@@ -124,6 +124,7 @@ a{
 .botao{
     background-color: #2F4B2A;
     display: flex;
+    align-items: center;
 }
 
 @media screen and (min-width: 1024px)  { 
