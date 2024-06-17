@@ -79,6 +79,13 @@ a{
     padding: 12px 0;
 }
 
+.item-titulo,
+.item {
+  padding: 1em;
+  background-color: var(--branco);
+}
+
+
 
 .noticia{
     background-color: var(--cor-de-SUB);
