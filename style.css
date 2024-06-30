@@ -135,6 +135,13 @@ a{
 }
 .destaque{
     background-color: #9EB1D7;
+
+}
+
+.footer{
+    color: #2F4B2A;
+    display: flex;
+    align-items: center;
     
 }
 
