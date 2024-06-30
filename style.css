@@ -128,6 +128,8 @@ a{
     
 }
 
+
+
 @media screen and (min-width: 1024px)  { 
     .noticia{
         display: flex;
@@ -144,5 +146,6 @@ a{
 }
 
 @media screen and (min-width: 1728px){
+    
 
 }
