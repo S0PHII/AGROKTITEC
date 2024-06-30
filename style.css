@@ -138,13 +138,6 @@ a{
 
 }
 
-.footer{
-    color: #2F4B2A;
-    display: flex;
-    align-items: center;
-    font-size: 22px;
-    
-}
 
 @media screen and (min-width: 1024px)  { 
     .noticia{
