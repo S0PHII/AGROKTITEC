@@ -165,6 +165,10 @@ a{
     .paragrafo{
         display: flex;
     }
+
+    .destaques{
+        display: grid;
+    }
     
 
 }
