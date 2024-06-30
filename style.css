@@ -131,11 +131,12 @@ a{
 
 .destaques{
     padding: 4cm;
+    display: flex;
 
 }
 .destaque{
     background-color: #9EB1D7;
-    display: flex;
+
 
 }
 
