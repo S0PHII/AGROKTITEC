@@ -129,9 +129,11 @@ a{
 }
 
 .destaques{
-    padding: 4cm;
-    background-color: #9EB1D7;
+    padding: 3cm;
 
+}
+.destaque{
+    background-color: #9EB1D7;
 }
 
 @media screen and (min-width: 1024px)  { 
