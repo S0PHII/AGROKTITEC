@@ -101,6 +101,7 @@ a{
 
 .paragrafo{
     color: rgb(230, 227, 227);
+    display: none;
 }
 
 
@@ -151,11 +152,15 @@ a{
     }
 
     .paragrafo{
-        display: none;
+        display: flex;
     }
+
 }
 
 @media screen and (min-width: 1728px){
+    .paragrafo{
+        display: flex;
+    }
     
 
 }
