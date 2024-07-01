@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --cor-de-fundo: #ffffff;
+    --cor-de-texto: #ffffff;
+    --cor-de-texto-2: #000000;
+    --cor-de-SUB: #9b9b9b;
+    --cor-de-bloco: rgb(209, 208, 208);
+    --cor-destaques: rgb(46, 58, 82);
+    --cor-cabeçalho: rgb(77, 131, 68);
+    --cor-linha: rgba(77, 131, 68, 0.5);
+}
