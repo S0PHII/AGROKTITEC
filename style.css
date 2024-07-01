@@ -143,7 +143,8 @@ a {
 }
 
 .linha2 {
-    border: solid 9px #AFD0AA;
+    background-color: #AFD0AA;
+    color: black;
 
 }
 
