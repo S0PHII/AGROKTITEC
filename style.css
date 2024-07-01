@@ -132,7 +132,9 @@ a {
 
 .destaques {
 
-    display: flex;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
 
 }
 
@@ -155,6 +157,18 @@ a {
 
 .p3 {
     display: none;
+}
+
+.clima{
+    width: 90%;
+}
+
+.gado{
+    width: 90%;
+}
+
+.globo{
+    width: 112%;
 }
 
 @media screen and (min-width: 1024px) {
