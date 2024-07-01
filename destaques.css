@@ -10,6 +10,73 @@
     --cor-de-SUB: #9b9b9b;
     --cor-de-bloco: rgb(209, 208, 208);
     --cor-destaques: rgb(46, 58, 82);
-    --cor-cabeçalho: rgb(77, 131, 68);
-    --cor-linha: rgba(77, 131, 68, 0.5);
+    --cor-cabeçalho: #5671A5;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-de-texto);
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: var(--cor-de-texto);
+    align-items: center; 
+    padding: 10px 0;
+    background-color: var(--cor-cabeçalho);
+    padding: 12px;
+    position: relative;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    color: var(--cor-de-texto);
+    text-decoration: none;
+}
+
+.texto{
+    color: var(--cor-de-texto);
+}
+
+.lista{
+    display: none;
+    position: absolute;
+    top: 100%;
+    padding: 20px 0;
+    text-align: center;
+    right: 0%;
+}
+
+
+.caixa:checked ~ .lista{
+    display: block;
+}
+
+#menu{
+    display: none;
+}
+
+.itens{
+    padding: 12px 0;
+}
+
+.itens-titulo, .item {
+  padding: 1em;
+  background-color: var(--cor-cabeçalho);
+}
+
+.butao{
+    background-color: var(--cor-destaques);
+    display: flex;
+    align-items: center;
+    
 }
