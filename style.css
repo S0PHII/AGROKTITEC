@@ -140,6 +140,11 @@ a{
 
 }
 
+.linha2{
+    border: solid 2px #AFD0AA;
+
+}
+
 
 @media screen and (min-width: 1024px)  { 
     .noticia{
