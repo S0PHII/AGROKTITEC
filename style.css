@@ -38,7 +38,7 @@ header {
     display: flex;
     justify-content: space-between;
     color: var(--cor-de-texto);
-    align-items: center; 
+    align-items: center;
     padding: 10px 0;
     background-color: var(--cor-cabeçalho);
     padding: 12px;
@@ -46,20 +46,20 @@ header {
 
 }
 
-ul li{
+ul li {
     list-style: none;
 }
 
-a{
+a {
     color: var(--cor-de-texto);
     text-decoration: none;
 }
 
-.texto{
+.texto {
     color: var(--cor-de-texto);
 }
 
-.lista{
+.lista {
     display: none;
     position: absolute;
     top: 100%;
@@ -69,111 +69,136 @@ a{
 }
 
 
-.caixa:checked ~ .lista{
+.caixa:checked~.lista {
     display: block;
 }
 
-#menu{
+#menu {
     display: none;
 }
 
-.item{
+.item {
     padding: 12px 0;
 }
 
-.item-titulo, .item {
-  padding: 1em;
-  background-color: var(--cor-cabeçalho);
+.item-titulo,
+.item {
+    padding: 1em;
+    background-color: var(--cor-cabeçalho);
 }
 
 
 
-.noticia{
+.noticia {
     background-color: var(--cor-de-SUB);
     padding: 10px;
     margin: 10px;
-    
+
 }
 
-.titulinho{
+.titulinho {
     color: var(--cor-de-texto-2);
 }
 
-.paragrafo{
+.paragrafo {
     color: rgb(230, 227, 227);
     display: none;
 }
 
 
-.linha{
+.linha {
     display: none;
 }
 
 
-.ima-1{
+.ima-1 {
     width: 20%;
 }
 
-.ima-2{
+.ima-2 {
     width: 25%;
 }
 
-.ima-3{
+.ima-3 {
     width: 25%;
 }
 
-.botao{
+.botao {
     background-color: #2F4B2A;
     display: flex;
     align-items: center;
-    
+
 }
 
-.destaques{
+.destaques {
 
     display: flex;
 
 }
-.destaque{
+
+.destaque {
     background-color: #9EB1D7;
     color: black;
 
 }
 
-.linha2{
-    border: solid 2px #AFD0AA;
+.linha2 {
+    border: solid 9px #AFD0AA;
 
 }
 
 
-@media screen and (min-width: 1024px)  { 
-    .noticia{
+.p2 {
+    display: none;
+}
+
+.p3 {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .noticia {
         display: flex;
     }
 
-    .linha{
+    .linha {
         display: block;
         border: 6px solid var(--cor-linha);
     }
 
-    .arrumar{
+    .arrumar {
         display: flex;
     }
 
-    .paragrafo{
+    .paragrafo {
         display: flex;
+    }
+
+    .p2 {
+        display: block;
+    }
+    
+    .p1{
+        display: none;
     }
 
 }
 
-@media screen and (min-width: 1728px){
-    .paragrafo{
+@media screen and (min-width: 1728px) {
+    .paragrafo {
         display: flex;
     }
 
-    .destaques{
+    .destaques {
         display: grid;
     }
-    
 
+    .p2 {
+        display: none;
+    }
+
+    .p3 {
+        display: block;
+    }
+    
 }
